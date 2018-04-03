@@ -1,0 +1,22 @@
+This README file contains information on the contents of the lts-kernel layer.
+
+This provides a recipe using the LTS kernel.
+The following kernels are available:
+
+ - v4.1.y
+ - v4.4.y
+ - v4.9.y
+ - v4.14.y
+
+Dependencies
+============
+
+  URI: git://git.yoctoproject.org/poky
+  branch: master
+
+Patches
+=======
+
+Please submit any patches against the lts-kernel layer to the maintainer:
+
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
