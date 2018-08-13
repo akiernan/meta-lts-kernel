@@ -5,6 +5,6 @@ require recipes-kernel/linux/linux-yocto.inc
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-4.9.y"
 
-SRCREV = "c806e0856941597f058b4a527d77dbc0000c513c"
-LINUX_VERSION ?= "4.9.110"
+SRCREV = "8f21ecb4249a0914aea08bef1befca9019a3b44b"
+LINUX_VERSION ?= "4.9.119"
 PV = "${LINUX_VERSION}"
